@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -15,11 +16,12 @@ html,
 body,
 #home {
     height: 100%;
-    overflow-x: hidden;/*FAZ COM QUE A BARRA DE BAIXO N APAREÇA*/
+    overflow-x: hidden;
+    /*FAZ COM QUE A BARRA DE BAIXO N APAREÇA*/
 }
 
 body {
-    background:linear-gradient(50deg, #dececb,#D5A18E);
+    background: linear-gradient(50deg, #dececb, #D5A18E);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -45,7 +47,7 @@ header .pri {
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--bege-escuro);
     transition: .5s;
-}       
+}
 
 .navbar-light .navbar-toggler {
     color: var(--bege-escuro);
@@ -72,37 +74,37 @@ header .pri {
     margin-bottom: -25px;
 }
 
- .numero {
+.numero {
     color: var(--branco);
     font-family: 'Poor Story', cursive;
     letter-spacing: 7px;
 }
 
-.btn-custom{
-    color:var(--branco);
+.btn-custom {
+    color: var(--branco);
     border-radius: 500px;
     text-transform: uppercase;
     transition: 0.5s, color 0.5s;
     padding: 10px 20px;
 }
 
-.btn-verde{
+.btn-verde {
     border: 1px solid var(--verde);
     color: var(--verde);
 }
 
-.btn-verde:hover{
+.btn-verde:hover {
     background: var(--verde);
     color: var(--branco);
     box-shadow: 0px 0px 25px var(--verde);
 }
 
-.btn-rosa{
+.btn-rosa {
     border: 1px solid var(--rosa);
     color: var(--rosa);
 }
 
-.btn-rosa:hover{
+.btn-rosa:hover {
     background: var(--rosa);
     color: var(--branco);
     box-shadow: 0px 0px 25px var(--rosa);
@@ -111,28 +113,28 @@ header .pri {
 
 /*Estrutura de conteúdos*/
 
-#servicos{
+#servicos {
     background: var(--branco);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-#servicos h2{
+#servicos h2 {
     color: var(--rosa);
 }
 
-#servicos h3{
+#servicos h3 {
     color: var(--bege-escuro);
 }
 
-#recursos{
+#recursos {
     padding-top: 20px;
     padding-bottom: 20px;
     color: var(--branco);
 }
 
 
-#recursos h2{
+#recursos h2 {
     color: var(--rosa);
 }
 
@@ -141,11 +143,11 @@ header .pri {
 }
 
 
-.albuns{
+.albuns {
     padding: 10px 0;
 }
 
-.rotacionar{
+.rotacionar {
     transform: rotate(30deg);
     padding-left: 80px;
     padding-top: 20px;
@@ -157,7 +159,7 @@ div p {
 
 /*Rodape*/
 
-footer{
+footer {
     background-color: var(--verde);
     padding: 50px 0px 20px 0px;
     color: var(--branco);
@@ -176,55 +178,55 @@ footer{
     color: var(--bege-escuro);
 }
 
-footer p{
+footer p {
     color: var(--branco);
 }
 
-footer h3{
+footer h3 {
     letter-spacing: 0;
 }
 
 
 
 /*Serviços*/
-.primeiro{
+.primeiro {
     margin-top: 100px;
 }
 
-.meio h1{
+.meio h1 {
     color: var(--rosa);
 }
 
-.meio  li{
+.meio li {
     color: var(--verde);
 }
 
 /*Produtos*/
 
-.top{
+.top {
     color: var(--verde);
 }
 
-.tabela1{
+.tabela1 {
     background: transparent;
     color: var(--verde);
     width: 250px;
 }
 
-.produto2 h1{
+.produto2 h1 {
     color: var(--rosa);
 }
 
-.produto1{
+.produto1 {
     background: var(--branco);
 }
 
-.produto1 h1{
+.produto1 h1 {
     color: var(--rosa);
 }
 
-.btn-customs{
-    color:var(--branco);
+.btn-customs {
+    color: var(--branco);
     border-radius: 500px;
     text-transform: uppercase;
     transition: 0.5s, color 0.5s;
@@ -232,23 +234,23 @@ footer h3{
     margin-bottom: 10px;
 }
 
-.btn-verde{
+.btn-verde {
     border: 1px solid var(--verde);
     color: var(--verde);
 }
 
-.btn-verde:hover{
+.btn-verde:hover {
     background: var(--verde);
     color: var(--branco);
     box-shadow: 0px 0px 25px var(--verde);
 }
 
-.btn-rosa{
+.btn-rosa {
     border: 1px solid var(--rosa);
     color: var(--rosa);
 }
 
-.btn-rosa:hover{
+.btn-rosa:hover {
     background: var(--rosa);
     color: var(--branco);
     box-shadow: 0px 0px 25px var(--rosa);
@@ -258,11 +260,18 @@ footer h3{
 
 /*Contatos*/
 
-.contatos{
+#contatos {
+    padding-top: 200px;
+    padding-bottom: 115px;
+}
+
+.contatos {
+    width: 100%;
+    overflow-y: hidden;
     color: var(--verde);
 }
 
-.contatos h1{
+.contatos h1 {
     color: var(--rosa);
 }
 
@@ -274,12 +283,12 @@ h1 {
     padding-bottom: 5px;
 }
 
-h2{
+h2 {
     font-size: 3em;
     font-weight: 700;
 }
 
-h3{
+h3 {
     font-size: 2em;
     font-weight: 700;
 }
@@ -287,51 +296,76 @@ h3{
 /*Tamanhos h1*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+    #contatos {
+        padding-top: 110px;
+        padding-bottom: 90px;
+    }
+
     .capa h1 {
         font-size: 3em;
     }
-    .btn-custom{
+
+    .btn-custom {
         margin: 10px 15px;
     }
-    h2{
+
+    h2 {
         font-size: 1.8em;
     }
-    h3{
+
+    h3 {
         font-size: 1.2em;
     }
-    .contatos{
-        margin-top: 70px;
+
+    .contatos {
+        margin-top: 50px;
     }
 }
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    #contatos {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
     .capa h1 {
         font-size: 4em;
     }
-    .btn-custom{
+
+    .btn-custom {
         margin: 10px 15px;
     }
-    h2{
+
+    h2 {
         font-size: 2em;
     }
-    h3{
+
+    h3 {
         font-size: 1.2em;
     }
-    .contatos{
+
+    .contatos {
         margin-top: 70px;
     }
 }
 
 /* Medium devices (tablets, less than 992px)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-   .capa h1 {
+    #contatos {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
+
+    .capa h1 {
         font-size: 4em;
     }
-    h2{
+
+    h2 {
         font-size: 2em;
     }
-    h3{
+
+    h3 {
         font-size: 1.3em;
     }
 }
@@ -341,10 +375,12 @@ h3{
     .capa h1 {
         font-size: 5em;
     }
-    h2{
+
+    h2 {
         font-size: 2em;
     }
-    h3{
+
+    h3 {
         font-size: 1.3em;
     }
 }
@@ -353,10 +389,12 @@ h3{
     .capa h1 {
         font-size: 6em;
     }
-    h2{
+
+    h2 {
         font-size: 2.2em;
     }
-    h3{
+
+    h3 {
         font-size: 1.4em;
     }
 }
