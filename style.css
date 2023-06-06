@@ -10,7 +10,6 @@
     --branco: #E1DEE3;
     --bege-claro: #dececb;
     --bege-escuro: #D5A18E;
-    --bege-muito: #bd6c4f;
 }
 
 
@@ -139,7 +138,7 @@ nav.navbar-transparente {
 
 
 #recursos h2 {
-    color: var(--bege-muito);
+    color: var(--verde);
 }
 
 #recursos h3 {
@@ -198,7 +197,7 @@ footer h3 {
 }
 
 .meio h1 {
-    color: #bd6c4f;
+    color: var(--verde);
 }
 
 .meio li {
@@ -225,7 +224,7 @@ div .rosa {
     color: var(--verde);
 }
 
-.top h3{
+.top h3 {
     font-style: italic;
 }
 
@@ -236,7 +235,7 @@ div .rosa {
 }
 
 .produto2 h1 {
-    color: var(--bege-muito);
+    color: var(--verde);
 }
 
 .produto1 {
@@ -283,18 +282,40 @@ div .rosa {
 /*Contatos*/
 
 #contatos {
-    padding-top: 200px;
+    padding-top: 140px;
     padding-bottom: 115px;
 }
 
 .contatos {
-    width: 100%;
     overflow-y: hidden;
     color: var(--verde);
 }
 
 .contatos h1 {
-    color: var(--bege-muito);
+    color: var(--verde);
+}
+
+.box {
+    width: 450px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background: var(--branco);
+    border-radius: 10px;
+}
+
+.box-mapa{
+    width: 845px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background: var(--branco);
+    border-radius: 10px;
+}
+
+iframe{
+    width: 78%;
+    height: 100%;
 }
 
 /*Tipografia*/
@@ -370,6 +391,7 @@ h3 {
     .contatos {
         margin-top: 70px;
     }
+    
 }
 
 /* Medium devices (tablets, less than 992px)*/
