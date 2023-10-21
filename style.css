@@ -12,6 +12,12 @@
     --bege-escuro: #D5A18E;
 }
 
+*::selection{
+    background-color: var(--verde);
+    color: var(--rosa);
+}
+
+
 
 html,
 body,
